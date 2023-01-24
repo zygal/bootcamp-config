@@ -1,11 +1,11 @@
 ---
-name: deploy-extpipes-cli
+name: deploy-extpipes-cli2
 
 on:
     push:
         branches:
-            #- main
-            - none
+            - main
+            # - none
 
 jobs:
     deploy_extpipes:
