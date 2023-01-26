@@ -7,8 +7,8 @@ name: Deploy transformations
 
 on:
     push:
-        #branches: [main]
-        branches: [none]
+        branches: [main]
+        # branches: [none]
 
 jobs:
     deploy:
