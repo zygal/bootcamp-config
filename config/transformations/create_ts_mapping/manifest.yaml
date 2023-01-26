@@ -4,12 +4,12 @@ externalId: tr-ts_assets_mapping
 name: ts_assets_mapping
 query:
     file: transformation.sql
-    destination:
-        type: timeseries
-        ignoreNullFields: true
-        shared: true
-        action: update
-        dataSetExternalId: uc:001:oee:ds
+destination:
+    type: timeseries
+ignoreNullFields: true
+shared: true
+action: update
+dataSetExternalId: uc:001:oee:ds
       # Specify credentials separately like this:
         # authentication:
           #   read:
